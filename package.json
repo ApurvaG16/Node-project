@@ -1,0 +1,32 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.6.12",
+    "redis-commander": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai": "^5.0.0",
+    "chai-http": "^4.4.0",
+    "eslint": "^8.56.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4"
+  }
+}
